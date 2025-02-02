@@ -38,11 +38,12 @@ body {
 
 .btn {
     background-color: #ffffff;
+    font-family: 'Nunito';
     color: rgb(233, 48, 48);
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
     border: none;
