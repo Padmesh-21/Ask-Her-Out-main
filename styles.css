@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: rgb(189, 225, 122);
+    background: linear-gradient(to right, #4b2a7a, #d17ae5, #4b2a7a);
 }
 
 #noButton {
