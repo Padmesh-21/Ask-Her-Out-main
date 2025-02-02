@@ -13,6 +13,17 @@
                 <img src="https://media0.giphy.com/media/T86i6yDyOYz7J6dPhf/giphy.gif" alt="Cute animated illustration">
             </div>
         </div>
-       
+        <canvas id="confetti-canvas"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/confetti-js"></script>
+        <script>
+            const confettiSettings = {
+                target: 'confetti-canvas',
+                respawn: true,
+                colors: ['#ff0000', '#00ff00', '#0000ff'], 
+            };
+            const confetti = new ConfettiGenerator(confettiSettings);
+            confetti.render();
+        </script>
+        
     </body> 
 </html>
