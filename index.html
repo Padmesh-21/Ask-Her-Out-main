@@ -23,17 +23,7 @@
                     
                     function moveButton() {
                         var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
-<<<<<<< HEAD
                         var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
-                        if(x > 100 || x < 0 ){
-                            x=20;
-                        }
-                        if(y > 100 || y < 0){
-                            y = 20;
-                        }
-=======
-                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) ;
->>>>>>> parent of 95d3ab9 (recor)
                         document.getElementById('noButton').style.left = `${x}px`;
                         document.getElementById('noButton').style.top = `${y}px`;
                     }
